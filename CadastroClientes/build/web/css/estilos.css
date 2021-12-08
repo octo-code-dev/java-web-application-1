@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2015, 18:06:30
+    Author     : erich
+*/
+
+body {
+    margin: 0px 20px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+
+main{
+    min-height: 350px;
+}
+
+header{
+    margin: 0px -20px 80px;
+    padding: 20px 50px;
+    box-shadow: 2px 2px 2px 2px #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+}
+
+header span{
+    font-family: sans-serif;
+    font-size: 26px;
+    color: #212529;
+}
+
+.headerPaginas{
+    float: right;
+    font-family: Segoe UI;
+    font-size: 16px;
+}
+
+.headerPaginas a:first-child{
+    border-radius: 5px;
+    background: #ff151c;
+    color: white;
+}
+
+.headerPaginas a:first-child:hover{
+    border: 1px solid #ff151c;
+    background: white;
+    color: #ff151c;
+    text-decoration: none;
+}
+
+.headerPaginas a {
+    padding: 7px;
+    color: #212529;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headerPaginas a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    margin-bottom: 60px;
+    text-align: center;
+    color: #212529;
+}
+
+.divClientes{
+    margin: 0 auto;
+}
+
+button{
+    margin: 0px 0px 10px 115px;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    background: #212529;
+    padding: 12px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background: white;
+    color: #212529;
+}
+
+.tabelaListagem{
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 2px #f2f2f2;
+}
+
+.tabelaListagem th {
+    border: 1px solid #445E93;
+    border-radius: 5px;
+    padding: 12px;    
+    background: white;
+    color: #445E93;
+    font-family: Segoe UI;
+    font-size: 18px;
+}
+
+.tabelaListagem tbody{
+    font-family: monospace;
+}
+
+.tabelaListagem tbody tr:nth-child(odd){
+    background: #f2f2f2;
+}
+
+.tabelaListagem tbody tr:hover{
+    background: #ddd;
+}
+
+.tabelaListagem td {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.tabelaListagem a{
+    color: #04AA6D;
+}
+
+.tabelaListagem a:hover{
+    color: #212529;
+}
+
+.alinharDireita {
+    text-align: right;
+}
+
+footer{
+    margin: 0px -20px;
+    padding-top: 50px;
+    background: #212529;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copyright{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.footer-text{
+    width:40%;
+    height: 162px;
+    font-weight: bold;
+}
+
+.footer-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-links p{
+    font-weight: bold;
+}
+
+.footer-links a{
+    padding-bottom: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+    margin: 0 auto;
+    text-align: center;
+}
